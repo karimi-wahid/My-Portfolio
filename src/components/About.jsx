@@ -15,7 +15,10 @@ const About = () => {
                     <p>Hi, i'm Wahidullah nice to meet you. please take a look around.</p>
                 </div>
                 <div>
-                    <p>I am passionate about building excellent UI that improves the lives of those around me.</p>
+                    <p>I am student at Jahan University, studying the 4<sub>th</sub>
+                    semester of BCS. My goal is to be a <strong>Full Stack Developer</strong>.
+                    Currently I'm working on my <strong>Front-End </strong>
+                    skill. I am passionate about building excellent UI of you websites.</p>
                 </div>
             </div>
         </div>

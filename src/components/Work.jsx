@@ -1,6 +1,11 @@
 import React from 'react'
-import workImg from '../assets/realestate.jpg'
-import workImg1 from '../assets/workImg.jpeg'
+import tour from '../assets/tour.PNG'
+import gym from '../assets/gym.PNG'
+import Masjid from '../assets/Masjid.PNG'
+import ageCalc from '../assets/ageCalc.PNG'
+import text from '../assets/text-speak.PNG'
+import profile from '../assets/profile.PNG'
+
 
 const Work = () => {
   return (
@@ -14,7 +19,7 @@ const Work = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                     {/* Grid Item */}
                 <div
-                 style={{backgroundImage: `url(${workImg})`}}
+                 style={{backgroundImage: `url(${tour})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
@@ -26,14 +31,15 @@ const Work = () => {
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
+                            <a href='https://github.com/karimi-wahid/tour-travel-app'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
+
                 <div
-                 style={{backgroundImage: `url(${workImg})`}}
+                 style={{backgroundImage: `url(${gym})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
@@ -45,14 +51,15 @@ const Work = () => {
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
+                            <a href='https://github.com/karimi-wahid/gym-app'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
+
                 <div
-                 style={{backgroundImage: `url(${workImg})`}}
+                 style={{backgroundImage: `url(${Masjid})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
@@ -64,64 +71,67 @@ const Work = () => {
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
+                            <a href='karimi-wahid/ummah-nabawiah-masjid'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
+
                 <div
-                 style={{backgroundImage: `url(${workImg})`}}
+                 style={{backgroundImage: `url(${ageCalc})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            JavaScript
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
+                            <a href='https://github.com/karimi-wahid/Age-Calculator-App'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
+
                 <div
-                 style={{backgroundImage: `url(${workImg})`}}
+                 style={{backgroundImage: `url(${text})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            JavaScript
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
+                            <a href='https://github.com/karimi-wahid/Text-To-Speech'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
+
                 <div
-                 style={{backgroundImage: `url(${workImg})`}}
+                 style={{backgroundImage: `url(${profile})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            HTML, CSS 
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
+                            <a href='https://github.com/karimi-wahid/Profile-Card-UI-Design'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
